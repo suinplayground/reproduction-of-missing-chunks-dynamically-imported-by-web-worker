@@ -41,7 +41,7 @@ const p = function polyfill() {
 };
 p();
 function WorkerWrapper() {
-  return new Worker("/assets/worker.7f8c9f1a.js", {
+  return new Worker("/assets/worker.925df867.js", {
     "type": "module"
   });
 }

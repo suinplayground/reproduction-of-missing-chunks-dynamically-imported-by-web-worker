@@ -6,6 +6,6 @@ export default defineConfig({
     minify: false,
   },
   worker: {
-    format: "es",
+    format: "es", // enable code-splitting
   },
 });

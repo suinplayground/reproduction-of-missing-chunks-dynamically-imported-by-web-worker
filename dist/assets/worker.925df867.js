@@ -32,6 +32,6 @@ const __vitePreload = function preload(baseModule, deps) {
   })).then(() => baseModule());
 };
 console.log("Hello from worker.js");
-__vitePreload(() => import("./myModule-602684be.js"), true ? [] : void 0).then(() => {
+__vitePreload(() => import("./myModule-494ef681.js"), true ? [] : void 0).then(() => {
   console.log("myModule.js was imported");
 });
